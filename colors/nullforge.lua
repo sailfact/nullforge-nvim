@@ -44,15 +44,15 @@ local c = {
   punct           = "#5a7a96",        -- slightly dimmer blue
 
   -- Git
-  git_add         = "#8fb27e",
-  git_change      = "#7a9bb8",
-  git_delete      = "#d97264",
+  git_add         = "#4a7c3a",
+  git_change      = "#3d5a75",
+  git_delete      = "#a13c2a",
 
   -- Diagnostics
-  diag_error      = "#d97264",
+  diag_error      = "#a13c2a",
   diag_warn       = "#c4622d",
-  diag_info       = "#7a9bb8",
-  diag_hint       = "#8fb27e",
+  diag_info       = "#3d5a75",
+  diag_hint       = "#4a7c3a",
 }
 
 -- ─── Editor Core ────────────────────────────────────────────────────────────
@@ -67,7 +67,7 @@ hl("Conceal",         { fg = c.fg_muted })
 hl("CursorColumn",    { bg = c.bg1 })
 hl("CursorLine",      { bg = c.bg1 })
 hl("CursorLineFold",  { bg = c.bg1 })
-hl("CursorLineNr",    { fg = c.peach,     bold = true })
+hl("CursorLineNr",    { fg = c.orange,     bold = true })
 hl("CursorLineSign",  { bg = c.bg1 })
 
 hl("Directory",       { fg = c.blue })
@@ -117,7 +117,7 @@ hl("TabLine",         { fg = c.fg_muted,  bg = c.bg2 })
 hl("TabLineFill",     { bg = c.bg2 })
 hl("TabLineSel",      { fg = c.fg,        bg = c.bg3,       bold = true })
 
-hl("Title",           { fg = c.peach,     bold = true })
+hl("Title",           { fg = c.orange,     bold = true })
 hl("VertSplit",       { fg = c.bg3 })
 hl("WinSeparator",    { fg = c.bg3 })
 
