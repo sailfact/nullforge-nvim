@@ -15,7 +15,7 @@ A deep navy / warm terracotta Neovim colorscheme.
   name = "nullforge",
   priority = 1000,
   opts = {
-    transparent = true,  -- false to use solid #0a1420 background
+    transparent = false,
   },
   config = function(_, opts)
     require("nullforge").setup(opts)
